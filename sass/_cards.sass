@@ -46,4 +46,5 @@
     transition: .1s ease
         
 .cards.light
-    @import card-theme(variables.$light-theme-card-gradient, variables.$light-theme-text-color, variables.$light-theme-h3-gradient)
+    @include theme.card-theme(variables.$light-theme-card-gradient, variables.$light-theme-text-color, variables.$light-theme-h3-gradient)
+    transition: 0.3s ease
